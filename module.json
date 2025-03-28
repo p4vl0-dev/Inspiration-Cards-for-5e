@@ -62,5 +62,7 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "manifest":
+  "download":
 }
