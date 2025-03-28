@@ -1,0 +1,66 @@
+{
+  "id": "inspiration-cards-for-5e",
+  "title": "Inspiration Cards for 5e",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "description": "Модуль, добавляющий журнал и случайную таблицу с 180 различными картами вдохновения, которые имеют, как обычные, так и очень крутые свойства. Они позволят разнообразить игру, добавляя опциональный выбор для награды игроков.",
+  "authors": [
+    {
+      "name": "p4vl0",
+      "email": "p4vl0.dev@gmail.com",
+      "discord": "p4vl0o",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "🎲 Колода вдохновения 🎲",
+      "sorting": "m",
+      "color": "#901e9f",
+      "folders": [],
+      "packs": [
+        "koloda-vdohnoveniya-zhurnal",
+        "koloda-vdohnoveniya-sluchajnaya-tablica",
+        "koloda-vdohnoveniya-predmety"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "koloda-vdohnoveniya-zhurnal",
+      "label": "Колода вдохновения - Журнал",
+      "path": "packs/koloda-vdohnoveniya-zhurnal",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "koloda-vdohnoveniya-sluchajnaya-tablica",
+      "label": "Колода вдохновения - Случайная таблица",
+      "path": "packs/koloda-vdohnoveniya-sluchajnaya-tablica",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "koloda-vdohnoveniya-predmety",
+      "label": "Колода вдохновения - Предметы",
+      "path": "packs/koloda-vdohnoveniya-predmety",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
