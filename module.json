@@ -63,6 +63,6 @@
       }
     }
   ],
-  "manifest": "https://github.com/p4vl0-dev/Inspiration-Cards-for-5e/blob/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/p4vl0-dev/Inspiration-Cards-for-5e/refs/heads/main/module.json"
   "download": "https://github.com/p4vl0-dev/Inspiration-Cards-for-5e/releases/download/rel1/inspiration-cards-for-5e.zip"
 }
